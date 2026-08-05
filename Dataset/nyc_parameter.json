@@ -1,0 +1,31 @@
+{
+    "name": "nyc_parameter",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureDataLakeStorageLinkedService",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "nyc_parameters.json",
+                "folderPath": "parameter",
+                "fileSystem": "bronze"
+            }
+        },
+        "schema": {
+            "type": "object",
+            "properties": {
+                "year": {
+                    "type": "string"
+                },
+                "month": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
