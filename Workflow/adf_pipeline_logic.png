@@ -1,0 +1,10 @@
+ForEach
+   │
+   ▼
+If Condition
+   │
+   ▼
+Copy Activity
+   │
+   ▼
+ADLS Bronze
