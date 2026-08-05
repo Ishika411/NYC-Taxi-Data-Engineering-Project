@@ -1,0 +1,28 @@
+NYC Taxi Public Dataset (HTTP)
+             │
+             ▼
+     Azure Data Factory
+     (Pipeline + ForEach)
+             │
+             ▼
+ Azure Data Lake Storage Gen2
+        Bronze Container
+             │
+             ▼
+     Azure Databricks
+   (Data Cleaning & Transformation)
+             │
+             ▼
+ Azure Data Lake Storage Gen2
+        Silver Container
+             │
+             ▼
+     Azure Databricks
+ (Delta Tables & SQL Operations)
+             │
+             ▼
+ Azure Data Lake Storage Gen2
+         Gold Container
+             │
+             ▼
+     Analytics / Reporting
