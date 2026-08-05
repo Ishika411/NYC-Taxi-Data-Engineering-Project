@@ -1,0 +1,10 @@
+Bronze Layer
+(Raw Data)
+      │
+      ▼
+Silver Layer
+(Cleaned & Transformed Data)
+      │
+      ▼
+Gold Layer
+(Business-ready Delta Tables)
